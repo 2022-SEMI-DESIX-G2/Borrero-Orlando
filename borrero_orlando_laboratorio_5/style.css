@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header '
+        'menu ';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+button{
+    align-self: right;
+}
+.divbutton{
+    display: flex;
+    flex-direction: row-reverse;
+}
+button{
+    width: 35%;
+}
+
+p{
+    font-size: 12;
+}
+body{
+    font-family: arial;
+}
